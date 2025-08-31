@@ -1,11 +1,10 @@
-import React from 'react'
-
-function home() {
+function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="home">
+      <h2>Welcome to My Website</h2>
+      <p>This is the home page built with React and Vanilla CSS 🚀</p>
     </div>
-  )
+  );
 }
 
-export default home
+export default Home;
